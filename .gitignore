@@ -1,0 +1,33 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Python / build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments / env files
+.venv/
+venv/
+.env
+.envrc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow artifacts (generated)
+mlartifacts/
+
+# Logs / temp
+*.log
+tmp/
+
+
+mlflow.db
