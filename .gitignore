@@ -4,7 +4,7 @@
 .idea/
 *.swp
 
-# Python / build
+# Python
 __pycache__/
 *.py[cod]
 *.pyo
@@ -13,7 +13,7 @@ __pycache__/
 dist/
 build/
 
-# Virtual environments / env files
+# Virtual environments
 .venv/
 venv/
 .env
@@ -22,12 +22,11 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# MLflow artifacts (generated)
+# MLflow
 mlartifacts/
+mlruns/
+mlflow.db
 
 # Logs / temp
 *.log
 tmp/
-
-
-mlflow.db
